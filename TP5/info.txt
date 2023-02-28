@@ -1,0 +1,8 @@
+tp-k8s  europe-west9-b  1.24.9-gke.3200  34.163.73.43  e2-small      1.24.9-gke.3200  3          RUNNING
+
+
+kubectl get nodes
+NAME                                    STATUS   ROLES    AGE   VERSION
+gke-tp-k8s-default-pool-0444ca89-8axd   Ready    <none>   12h   v1.24.9-gke.3200
+gke-tp-k8s-default-pool-0444ca89-glok   Ready    <none>   12h   v1.24.9-gke.3200
+gke-tp-k8s-default-pool-0444ca89-xnw6   Ready    <none>   12h   v1.24.9-gke.3200
