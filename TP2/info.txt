@@ -1,0 +1,2 @@
+- Build le Dockerfile : docker build -t motd .
+- Le Run : docker run -p 8000:8000 -e MOTD="Test MOTD" -e PORT=8000 motd
