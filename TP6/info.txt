@@ -1,0 +1,27 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: DATA+OMITTED
+    server: https://34.163.73.43
+  name: gke_amnay-k8s-337617_europe-west9-b_tp-k8s
+contexts:
+- context:
+    cluster: gke_amnay-k8s-337617_europe-west9-b_tp-k8s
+    namespace: bryan-hervelin
+    user: gke_amnay-k8s-337617_europe-west9-b_tp-k8s
+  name: gke_amnay-k8s-337617_europe-west9-b_tp-k8s
+current-context: gke_amnay-k8s-337617_europe-west9-b_tp-k8s
+kind: Config
+preferences: {}
+users:
+- name: gke_amnay-k8s-337617_europe-west9-b_tp-k8s
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args: null
+      command: gke-gcloud-auth-plugin
+      env: null
+      installHint: Install gke-gcloud-auth-plugin for use with kubectl by following
+        https://cloud.google.com/blog/products/containers-kubernetes/kubectl-auth-changes-in-gke
+      interactiveMode: IfAvailable
+      provideClusterInfo: true
