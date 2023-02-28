@@ -1,0 +1,11 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: bryan-hervelin
+  labels:
+    app: motd
+spec:
+  containers:
+  - name: motd
+    image: rougeciel/motd-api:1.0
