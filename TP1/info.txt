@@ -1,0 +1,5 @@
+Pour lancer ce code : 
+- Installer Python
+- Installer Flask avec pip
+- Lancer le micro-service de cette façon : python3 motd.py --motd "..." --port 8000
+- Avec un autre terminal faire une requete du genre : curl http://127.0.0.1:8000/motd
